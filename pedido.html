@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pastelería Master Chef</title>
+</head>
+<body>
+    <img src="./assets/Master Chef.png" alt="Logo Master Chef" width="250px">
+    <h1>Bienvenido Maestro Pastelero Puedes Realizar tu Orden</h1>
+
+    <form action="pedido.js">
+
+    </form>   
+        <label for="Nombre">Pastelero! Cuál es tu nombre?</label><br>
+        <input type="text" id="Nombre" name="Nombre" placeholder="Nombre"><br>
+
+        <label for="email">Cuál es tu correo electrónico?</label><br>
+        <input type="text" id="email" name="email" placeholder="email"><br>
+
+        <label for="numero">Tu teléfono! :D </label><br>
+        <input type="numero" id="numero" name="numero" placeholder="número">
+
+        <br><br>
+
+        <label for="mesa">Selecciona el número de mesa que tienes asignado</label><br>
+        <input type="number" id="mesa" name="mesa" placeholder="11">
+
+        <p>Tu orden es para comer aquí o para llevar?</p>
+        <input type="radio" id="aqui" name="aquiollevar" value="Comere Aqui">
+        <label for="aqui">Comeré Aquí!</label><br>
+        <input type="radio" id="llevar" name="aquiollevar" value="Me lo llevo">
+        <label for="llevar">Me lo llevo!</label><br>
+
+
+        <p>De qué sera tu Pastelito?</p>
+
+        <input type="checkbox" id="chocolatero" name="chocolatero" value="Chocolatero">
+        <label for="chocolatero">Chocolatero</label>
+        <input type="number" id="chocolateroCuantos" name="chocolateroCuantos" placeholder="Cantidad"> <br><br>
+
+        <input type="checkbox" id="3leches" name="leches" value="3leches">
+        <label for="3leches">3 Leches</label>
+        <input type="number" id="venusCuantos" name="venusCuantos" placeholder="Cantidad?"> <br><br>
+
+        <input type="checkbox" id="enamorado" name="enamorado" value="Enamorado">
+        <label for="enamorado">Enamorado</label>
+        <input type="number" id="enamoradoCuantos" name="enamoradoCuantos" placeholder="Cantidad"> <br><br>
+
+        <input type="checkbox" id="espacial" name="espacial" value="Espacial">
+        <label for="espacial">Espacial</label>
+        <input type="number" id="espacialCuantos" name="espacialCuantos" placeholder="Cantidad"> <br><br>
+
+        <input type="checkbox" id="imposible" name="imposible" value="Imposible">
+        <label for="imposible">Imposible</label>
+        <input type="number" id="imposibleCuantos" name="imposibleCuantos" placeholder="Cantidad"> <br><br>
+
+        <p>Prefieres algún paquete? Seleccionalo!</p>
+        <select name="paquetes" id="paquetes">
+            <option value="Paquetelosenamorados">Paquete los enamorados</option>
+            <option value="Paquetelosgolozos">Paquete los golozos</option>
+            <option value="Paquetesuperespacial">Paquete super espacial</option>
+            <option value="Noquiero">No quiero paquete! </option>
+
+        </select>
+
+
+        <p>Algún toping Extra?</p>
+        <select name="toping" id="toping">
+            <option value="ChispasdeChocolate">Chispas de Chocolate</option>
+            <option value="Fresasderritadas">Fresas derritadas</option>
+            <option value="Cajetaespacial">Cajeta espacial</option>
+            <option value="BotellaAguaNatural">Nueces magicas</option>
+            <option value="Noquiero">No quiero Topings! </option>
+
+        </select>
+
+        <p>Qué deseas para tomar?</p>
+        <select name="bebidas" id="bebidas">
+            <option value="Cafe">Café</option>
+            <option value="Capuccino">Capuccino</option>
+            <option value="Bebidapastelerasorpresa">Bebida pastelera sorpresa</option>
+            <option value="BotellaAguaNatural">Botella Agua Natural</option>
+            <option value="Noquiero">No tomaré nada! </option>
+
+        </select>
+
+        <br><br>
+        <br><br>
+    
+
+        <input type="reset">
+        <input type="submit"
+    </form>
+
+</body>
+</html>
